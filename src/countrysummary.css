@@ -1,0 +1,132 @@
+
+
+.summary-containerdark {
+    width: 250px;
+    background-color: hsl(209, 23%, 22%);
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.summary-containerlight {
+    width: 250px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .25);
+}
+
+ .country-img {
+    height: 120px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+ .country-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+ .summary {
+    padding:20px 20px 30px 20px;
+}
+
+.countryname {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+
+
+.summary .pop-re-cap p {
+    font-size: 12px;
+}
+
+.summary .pop-re-cap strong{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 946px) {
+
+    .countryname {
+        margin-bottom: 10px;
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+    .summary-containerlight {
+        width: 190px;
+    }
+    .summary-containerdark {
+        width: 190px;
+    }
+
+    .summary .pop-re-cap p {
+        font-size: 11px;
+    }
+    
+    .summary .pop-re-cap strong{
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width: 490px) {
+
+    .countryname {
+        margin-bottom: 10px;
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    .summary-containerlight {
+        width: 165px;
+    }
+    .summary-containerdark {
+        width: 165px;
+    }
+
+    .summary .pop-re-cap p {
+        font-size: 10px;
+    }
+    
+    .summary .pop-re-cap strong{
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .countryname {
+        margin-bottom: 10px;
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    .summary-containerlight {
+        width: 85%;
+        margin: auto;
+    }
+    .summary-containerdark {
+        width: 85%;
+        margin: auto;
+    }
+
+    .summary .pop-re-cap p {
+        font-size: 10px;
+    }
+    
+    .summary .pop-re-cap strong{
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+}
