@@ -103,7 +103,7 @@
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
 
     .countryname {
         margin-bottom: 10px;
@@ -130,3 +130,4 @@
     }
 
 }
+

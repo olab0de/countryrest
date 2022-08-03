@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 946px) {
     .main-bottom {
-        grid-template-columns: repeat(auto-fill, 190px);
+        grid-template-columns: repeat(auto-fill, 185px);
     }
 }
 
@@ -52,7 +52,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
     .main-bottom {
         grid-template-columns: 100%;
 

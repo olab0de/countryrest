@@ -211,7 +211,7 @@ html, body {
   }
 
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
 
   .formdark input, .formlight input {
     width: 100%;
