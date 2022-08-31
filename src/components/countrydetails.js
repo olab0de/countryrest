@@ -2,6 +2,7 @@ import React, { useEffect, useState, useContext } from 'react'
 import '../countrydetails.css'
 import {useParams, Link, useNavigate} from 'react-router-dom'
 import arrowlight from '../icons/arrow-left (2).svg'
+import arrowdark from '../icons/arrow-left (3).svg'
 import ThemeContextProvider, {ThemeContext} from './themecontext'
 import { v4 as uuidv4 } from 'uuid';
 
@@ -18,6 +19,7 @@ function Countrydetails(props) {
     let params = useParams().countryname;
 
     const navigate = useNavigate();
+    const arrow = lightTheme ? <img src={arrowlight} alt='arrow'/> : <img src={arrowdark} alt='arrow'/>;
 
     
 
@@ -93,7 +95,7 @@ function Countrydetails(props) {
         <main className={lightTheme ? 'App-bottomlight': 'App-bottomdark'}>
             <div className={lightTheme ? 'detailslight' : 'detailsdark'}>
                 <button className='back-btn' onClick={() => navigate(-1)}>
-                <img src={arrowlight} />Back
+                {arrow}Back
                 </button>
                 <section className='section'>
                     {details}
